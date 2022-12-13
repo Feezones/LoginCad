@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol;
 using teste.Models;
 using teste.Objetos;
 
@@ -26,6 +27,7 @@ namespace teste.Controllers
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsers()
         {
             return await _context.Users.ToListAsync();
+             
         }
 
         // GET: api/Usuarios/5

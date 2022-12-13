@@ -10681,11 +10681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositorio\\CadastroLogin\\CadastroLogin.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Documents\\GitHub\\LoginCad\\CadastroLogin.csproj",
       "projectName": "CadastroLogin",
-      "projectPath": "D:\\Repositorio\\CadastroLogin\\CadastroLogin.csproj",
+      "projectPath": "C:\\Users\\felip\\Documents\\GitHub\\LoginCad\\CadastroLogin.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositorio\\CadastroLogin\\obj\\",
+      "outputPath": "C:\\Users\\felip\\Documents\\GitHub\\LoginCad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",

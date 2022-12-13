@@ -13,6 +13,6 @@ namespace teste.Models
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite(@"Data Source=D:\Repositorio\teste\LoginsDb.db");
+            => options.UseSqlite(@"Data Source=C:\Users\felip\Documents\GitHub\LoginCad\LoginsDb.db");
     }
 }

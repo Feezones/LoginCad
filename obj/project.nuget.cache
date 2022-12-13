@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4fYH7d4IDx+kZUg8tRqemWaraqRn5Sx6B6KwdxYgluK4VUqDH1hlCYjdABZG1ei94+7zWu9SnHpgDrnsV/r8QA==",
+  "dgSpecHash": "rMdB4j0FHubzEtK1qi6cOCwubw6aMXTZIBTgJXyyaDdkODPFIGyLj5DwurbkYrWgNqXVJsEGfS/rPClTAC15+Q==",
   "success": true,
-  "projectFilePath": "D:\\Repositorio\\CadastroLogin\\CadastroLogin.csproj",
+  "projectFilePath": "C:\\Users\\felip\\Documents\\GitHub\\LoginCad\\CadastroLogin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
