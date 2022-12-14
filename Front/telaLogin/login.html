@@ -12,11 +12,12 @@
     <div class="flex-container">
         <form>
             <label>Email</label>
-            <input placeholder="Ex: contato@dominio.com.br" type="email" required=""  maxlength="30">
+            <input placeholder="Ex: contato@dominio.com.br" type="email" required="" id="email" maxlength="30">
             <label>Senha</label>
-            <input placeholder="senha123*" type="password" required="" maxlength="15">
-            <button>Login</button>
+            <input placeholder="senha123*" type="password" required="" id="senha" maxlength="15">
+            
         </form>
+        <button onclick="logarAPI()">Login</button>
         <button class="button" onclick="toCad()" id="button">Cadastrar</button>
         
     </div>
