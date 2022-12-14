@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+        <form>
+            <label>Nome</label>
+            <input placeholder="Ex: Nome"   maxlength="30" id="nome"><br>
+            <label>Sobrenome</label>
+            <input placeholder="Ex: Sobrenome"   maxlength="30" id="sobrenome"><br>
+            <label>CPF</label>
+            <input placeholder="Ex: xxx.xxx.xxx-xx"  maxlength="11" id="CPF"><br>
+            <label>Endereço</label>
+            <input placeholder="Ex: Rua João Martins, 23"  maxlength="30" id="endereco"><br>
+            <label>Telefone</label>
+            <input placeholder="Ex: 154212421"  maxlength="10" id="telefone"><br>
+            <label>Email</label>
+            <input placeholder="Ex: contato@dominio.com.br"   maxlength="30" id="email"><br>
+            <label>Senha</label>
+            <input placeholder="senha123*"  maxlength="15" id="senha"><br>
+            <label>Confir. Senha</label>
+            <input placeholder="senha123*"  maxlength="15" id="confSenha"><br>
+            <button onclick="sendForm()">Cadastrar</button>
+        </form>
+        <button onclick="toLogin()">Voltar</button>
+
+        <button onclick="show()">show</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

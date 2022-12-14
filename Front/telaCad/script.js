@@ -8,7 +8,7 @@ function main(){
     .then(data => console.log('values', data))
     .catch(error => console.log('error', error));
 }
-main()
+
 
 
 
@@ -23,7 +23,7 @@ function sendForm(){
      confSenha=document.getElementById("confSenha").value
 
 
-      formJSON2={
+      const formJSON2={
         "nome":String(nome),
         "sobrenome":String(sobrenome),
         "cpf":String(CPF),
@@ -34,33 +34,33 @@ function sendForm(){
         "confSenha":String(confSenha),
     }
 
-     formJSON={
-        "nome":'felipe',
-        "sobrenome":'brag',
+     const formJSON={
+        "nome":'felipe2',
+        "sobrenome":'brag2',
         "cpf":'14514514512',
-        "endereco":'rua de casa',
+        "endereco":'rua de casa2',
         "telefone":'145145124',
-        "email":'email@gmail.com',
+        "email":'email2@gmail.com',
         "senha":'senhaforte123',
         "confSenha":'senhaforte123',
     }
 
     console.log(formJSON,formJSON2)
-}
 
-/*
+
+
 fetch('https://localhost:7041/api/Usuarios',{
     method: 'POST',
     headers: {
         'Content-Type':'application/json;'
     }, 
-    body: JSON.stringify()
+    body: JSON.stringify(formJSON2)
 })
 .then(response => response.json())
 .then(data => console.log('Sucesso', data))
 .catch(error => console.log('Error', error));
-*/
 
+}
 
 
 
